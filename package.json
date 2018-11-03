@@ -1,0 +1,11 @@
+{
+  "name": "loancalculator",
+  "version": "1.0.0",
+  "description": "Calculates fee and amortization table for a loan, given an amount, interest and amortization period in months",
+  "main": "index.js",
+  "keywords": [
+    "fee"
+  ],
+  "author": "Miguel Otero",
+  "license": "MIT"
+}
