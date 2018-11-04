@@ -57,6 +57,8 @@ result will be:
 ```json
 {  
    "amount": 10000,
+   "interest": 3,
+   "months": 24,
    "fee": 429.81,
    "totalInterest": 315.49,
    "total": 10315.49,

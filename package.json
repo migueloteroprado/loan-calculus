@@ -1,6 +1,6 @@
 {
   "name": "loan-calculus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Calculates fee and amortization table for a loan, given an amount, interest and amortization period in months",
   "main": "index.js",
   "keywords": [
