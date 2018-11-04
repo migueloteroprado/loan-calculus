@@ -11,6 +11,8 @@ module.exports = (amount, interest, months, genTable = true, decimals = 2) => {
   const fee = amount * monthlyInterest * factor / (factor - 1);
   let result = {
     amount,
+    interest,
+    months,
     fee: round(fee, decimals),
     totalInterest: round((fee * months) - amount, decimals),
     total: round(fee * months, decimals)

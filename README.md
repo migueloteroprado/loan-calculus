@@ -23,19 +23,21 @@ An object with the following format:
 
 ```json
 {
-  "amount",
-  "fee",
-  "totalInterest",
-  "total",
+  "amount": 1000,
+  "interest": 84.92,
+  "months": 12,
+  "fee": 84.92,
+  "totalInterest": 19.06,
+  "total": 1019.06,
   "table": [
     {
-      "month",
-      "fee",
-      "interest",
-      "amortization",
-      "accumInterest",
-      "accumAmortization",
-      "pending"
+      "month": 1,
+      "fee": 84.92,
+      "interest": 2.92,
+      "amortization": 82,
+      "totalInterest": 2.92,
+      "totalAmortization": 82,
+      "pendingAmount": 918
     },
     ...
   ]
